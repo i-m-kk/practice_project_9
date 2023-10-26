@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.mousePointer {
+  cursor: pointer;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+  margin-bottom: 32px;
+  padding: 10px;
+  z-index: 50;
+  background-color: white;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.barIcone {
+  font-size: 32px;
+}
+
+/* hero section */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.heroImg:hover {
+  transform: scale(1.05);
+  transition: 0.5s ease-in-out;
+}
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.tag {
+  background-color: #149f39;
+  color: white;
+  padding: 5px 10px;
+}
+.tag1 {
+  align-self: flex-start;
+}
+.heroContent h1 {
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+}
+.exploreBtn {
+  background-color: #ffc066;
+  align-self: flex-start;
+}
+button:hover {
+  transition: 0.5s ease-in-out;
+  background-color: brown;
+  color: white;
+}
+/* feature section */
+.featureSection {
+  display: flex;
+  gap: 20px;
+  margin-block: 65px;
+}
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 4px;
+}
+.feature:hover {
+  box-shadow: 10px 10px 10px rgba(1, 1, 1, 1);
+  transition: 0.5s ease-in-out;
+  background-color: brown;
+  color: white;
+}
+.divider {
+  border: 1px solid brown;
+  margin-block: 20px;
+}
+
+/* menu */
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.tag2 {
+  border-radius: 5px;
+}
+.tag2:hover {
+  transition: 0.5s ease-in-out;
+  background-color: yellowgreen;
+  color: black;
+}
+.grid {
+  display: grid;
+  gap: 15px;
+  grid-template-areas:
+    "i1 i1 i2 i3"
+    "i1 i1 i2 i7"
+    "i4 i5 i6 i7";
+}
+.item1 {
+  grid-area: i1;
+}
+.item2 {
+  grid-area: i2;
+}
+.item3 {
+  grid-area: i3;
+}
+.item4 {
+  grid-area: i4;
+}
+.item5 {
+  grid-area: i5;
+}
+.item6 {
+  grid-area: i6;
+}
+.item7 {
+  grid-area: i7;
+}
+.gridImg {
+  border-radius: 10px;
+}
+.gridImg:hover {
+  transform: scale(1.05);
+  transition: 0.5s ease-in-out;
+}
+
+/* footer section */
+footer {
+  background-color: #fff0db;
+}
+.footerContainer {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+}
+.footLogo {
+  align-self: center;
+}
+
+.footLinks h3 {
+  margin-bottom: 15px;
+  color: grey;
+}
+.footLinks ul li {
+  margin-bottom: 15px;
+  list-style-type: none;
+}
+.footLinks ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.contactUs h3 {
+  color: grey;
+  margin-bottom: 15px;
+}
+.contactUs input {
+  padding: 5px 40px;
+  margin-bottom: 10px;
+}
+.socialIcone {
+  display: flex;
+  font-size: 38px;
+  gap: 15px;
+}
